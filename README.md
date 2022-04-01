@@ -18,10 +18,7 @@ ShaderMain.instance.shaderTime();
 }
 
 at the very beginning of the method drawScreen write:
- ShaderMain.instance.startShader(this.width, this.height, mouseX, mouseY, time); //you can change all parameters, but not mouseX, mouseY.
- EXAMPLE
-     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
- ShaderMain.instance.startShader(this.width, this.height, mouseX, mouseY, 1000f);
+![image](https://user-images.githubusercontent.com/100965140/161317507-f81c46c2-55d2-4dab-8d6a-943e9a54e7b3.png)
  }
 
 
